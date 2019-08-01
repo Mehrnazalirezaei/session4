@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register02">
+
+    <EditText
+        android:id="@+id/nameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Name"
+        android:inputType="text"
+        android:textSize="@dimen/textsize" />
+
+    <EditText
+        android:id="@+id/familyEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/family"
+        android:inputType="text"
+        android:textSize="@dimen/textsize" />
+
+    <EditText
+        android:id="@+id/mailEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/textsize" />
+
+    <EditText
+        android:id="@+id/Edit_Call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:textSize="@dimen/textsize" />
+
+    <Button
+        android:id="@+id/previewBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/preview"
+        android:textSize="@dimen/textsize"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

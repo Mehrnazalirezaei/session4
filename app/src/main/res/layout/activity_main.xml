@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_marginBottom="250dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Btn_Drawer"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/shap"
+            android:text="@string/Drawershow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="end">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="@dimen/marginright"
+            android:text="@string/Register"
+            android:textSize="@dimen/FontSize"
+            android:textColor="@android:color/primary_text_light"
+            android:id="@+id/Btn_Register"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="@dimen/marginright"
+            android:text="@string/preview"
+            android:textSize="20sp"
+            android:textColor="@android:color/primary_text_light"
+            android:id="@+id/Btn_Profile"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="@dimen/marginright"
+            android:text="@string/Dial"
+            android:textSize="@dimen/FontSize"
+            android:textColor="@android:color/primary_text_light"
+            android:id="@+id/Btn_Call"/>
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

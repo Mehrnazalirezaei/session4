@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sematec-Session4</string>
+    <string name="email">Emailaddress</string>
+    <string name="Name">Name:</string>
+    <string name="family">Family:</string>
+    <string name="phone">Phone Number:</string>
+    <string name="Register">Resgister</string>
+    <string name="preview">Preview</string>
+    <string name="Dial">Dial</string>
+    <string name="Drawershow">ShowDrawer</string>
+    <string name="Call">Call</string>
+    <string name="plzinsert">Plz enter your number!!</string>
+    <string name="edit">Edit</string>
+    <string name="finish">OK</string>
+    <string name="welcome">Task for session 4 !!</string>
+</resources>
